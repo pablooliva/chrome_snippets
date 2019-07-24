@@ -1,3 +1,4 @@
+// https://twitter.com/NetanelBasal/status/1040120123879837696
 function changeInput(inputName, value) {
   ng.probe($0).componentInstance[inputName] = value;
   ng.probe($0).injector.get(ng.coreTokens.ApplicationRef).tick();
